@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sakib Peat</title>
+
+    <!-- style tailwind and daisyUi -->
+    <link rel="stylesheet" href="./output/output.css" />
+
+    <!-- font awasome link -->
+    <script
+      src="https://kit.fontawesome.com/3c3766bed1.js"
+      crossorigin="anonymous"
+    ></script>
+
+   
+
+  </head>
+  <body>
+    <!-- header section start -->
+    <header class="container mx-auto mt-3">
+      <section class="flex items-center justify-between mx-3">
+        <div>
+          <div class="flex items-center">
+            <img
+              src="./B10A6-Assess-Your-Asynchronous-JS-and-ES6-skills/images/logo.webp"
+              alt=""
+            /><a class="btn btn-ghost text-xl">sakib peat Shope</a>
+          </div>
+        </div>
+
+        <div class="max-sm:hidden">
+          <ul class="flex items-center justify-between gap-x-3">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shope</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="btn btn-ghost btn-circle avatar">
+            <div class="w-10 rounded-full">
+              <img
+                alt="Tailwind CSS Navbar component"
+                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="dropdown dropdown-end sm:hidden">
+          <div tabindex="0" role="button" class="btn m-1"><label class="btn btn-circle swap swap-rotate">
+            <!-- this hidden checkbox controls the state -->
+            <input type="checkbox" />
+          
+            <!-- hamburger icon -->
+            <svg
+              class="swap-off fill-current"
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 512 512">
+              <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
+            </svg>
+          
+            <!-- close icon -->
+            <svg
+              class="swap-on fill-current"
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 512 512">
+              <polygon
+                points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49" />
+            </svg>
+          </label></div>
+          <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+            <li><a>Home</a></li>
+            <li><a>Shope</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+      </section>
+    </header>
+    <!-- header section end -->
+    <!-- main section start -->
+    <main class="container mt-11">
+      <!-- banner section start -->
+      <section class="container mx-auto">
+        <div class="w-[80%] mx-auto">
+          <h4 class="text-gray-700 text-[20px] text-center">
+            Bringing Families Together ❤️‍🔥
+          </h4>
+          <h1
+            class="lg:text-[51px] text-[30px] text-center text-black font-[900]"
+          >
+            Your Path to Adoption <br />
+            Starts Here
+          </h1>
+          <p class="text-center text-gray-500">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum is that it has a.
+          </p>
+        </div>
+        <div class="w-40 mx-auto mt-2">
+          
+          <a href="#dealsection"><button class="btn btn-active w-[100%] btn-secondary">  View More
+            
+          </button></a>
+        </div>
+        <div class="w-[80%] mx-auto flex items-center justify-center">
+          <img
+            src="./B10A6-Assess-Your-Asynchronous-JS-and-ES6-skills/images/pet.webp"
+            alt=""
+          />
+        </div>
+        <div class="w-[80%] mx-auto">
+          <h4 class="text-gray-700 text-[20px] text-center"></h4>
+          <h1
+            class="lg:text-[51px] text-[30px] text-center text-black font-[900]"
+          >
+            Adopt Your Best Friend
+          </h1>
+          <p class="text-center text-gray-500">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum is that it has a.
+          </p>
+        </div>
+      </section>
+      <!-- banner section end -->
+      <!-- catagory button section start -->
+      <section
+        id="ctgBtn"
+        class="w-7/12 mx-auto mt-4 flex flex-col lg:flex-row gap-2 justify-between items-center"
+      ></section>
+      <!-- catagory button section end -->
+      <!-- best deal start -->
+      <div id="sortButton" class="">
+       
+      </div>
+      <section id="dealsection" class="w-[90%] mx-auto mt-6 grid grid-cols-12 gap-x-3">
+        <!-- 1st col -->
+        <div class="col-span-12 lg:col-span-10">
+          <!-- spiinner -->
+          <div id="sppiner" class="flex items-center justify-center">
+            <span class="loading loading-bars loading-lg"></span>
+          </div>
+          <!-- no data -->
+          <div id="nodata" class="w-[250px] mx-auto hidden">
+            <img
+              class="w-[100%]"
+              src="./B10A6-Assess-Your-Asynchronous-JS-and-ES6-skills/images/error.webp"
+              alt=""
+            />
+          </div>
+          <div
+            id="adpotConatiner"
+            class="grid grid-cols-12 place-items-center"
+          >
+
+        </div>
+        </div>
+        <!-- 2nd col -->
+        <div class="col-span-12 lg:col-span-2">
+          <div
+            id="likeImga"
+            class="flex items-center flex-wrap justify-left gap-2"
+          ></div>
+        </div>
+      </section>
+      <!-- best deal end -->
+    </main>
+    <!-- modal start -->
+    <!-- Modal Structure -->
+    <!-- The button to open modal -->
+
+    <input type="checkbox" id="my_modal_7" class="modal-toggle" />
+    <div class="modal">
+      <div class="modal-box">
+        <div class="flex flex-col items-center justify-center">
+          <h3 class="text-lg font-bold">Adoption Process</h3>
+          <img class="w-[50%]" src="./B10A6-Assess-Your-Asynchronous-JS-and-ES6-skills/images/3753691.jpg" alt="">
+          <p id="countdownText" class="py-4 text-center text-[50px]"></p>
+        </div>
+      </div>
+      <label class="modal-backdrop" for="my_modal_7">Close</label>
+    </div>
+
+    <!-- modal end -->
+
+    <!-- details modal start -->
+     <!-- The button to open modal -->
+    <section id="detailsContainer">
+      
+      
+      
+    </section>
+
+    <!-- details modal end -->
+
+
+    <!-- main section end -->
+    <!-- footer start -->
+    <footer class="w-[100%] h-auto py-4 mx-auto bg-black">
+      <section class="mx-3 my-4">
+        <div
+          class="w-[80%] mx-auto flex max-sm:flex-col items-center justify-between"
+        >
+          <!-- left start -->
+          <div>
+            <div class="flex items-center text-white">
+              <img
+                src="./B10A6-Assess-Your-Asynchronous-JS-and-ES6-skills/images/logo.webp"
+                alt=""
+              /><a class="btn btn-ghost text-xl">sakib peat Shope</a>
+            </div>
+            <div class="text-gray-300">
+              <p>Location: av. Washington 165, NY CA 54003</p>
+              <p>Phone: +31 85 964 47 25</p>
+              <p>Email: info@yourdomain.com</p>
+              <p>Openings hours: 9.00 AM - 5.00 PM</p>
+            </div>
+            <div class="my-2">
+              <i class="fa-brands fa-facebook text-blue-800 text-[40px]"></i>
+              <i class="fa-brands fa-x-twitter text-white text-[40px]"></i>
+              <i class="fa-brands fa-youtube text-red-600 text-[40px]"></i>
+              <i
+                class="fa-brands fa-square-instagram text-purple-500 text-[40px]"
+              ></i>
+            </div>
+          </div>
+          <!-- left end -->
+          <!-- middle start -->
+          <div class="">
+            <h2 class="font-[700] text-[22px] text-white">Useful Links</h2>
+            <ul class="text-white">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Animals</a></li>
+              <li><a href="#">Foundation</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <!-- middle end -->
+          <!-- right start -->
+          <div>
+            <h2 class="font-[700] text-[22px] text-white">Drop a Message</h2>
+            <input
+              type="text"
+              placeholder="Type here"
+              class="input input-bordered input-accent w-full max-w-xs my-2"
+            />
+            <button class="btn btn-accent w-[100%]">Subscribe</button>
+          </div>
+          <!-- right end -->
+        </div>
+      </section>
+    </footer>
+    <!-- footer end -->
+
+    <!-- javaScript -->
+    <script src="./src/script/appi.js"></script>
+    <script src="./src/script/display.js"></script>
+    <script src="./src/script/allDataModal.js"></script>
+    <script src="./src/script/adopt.js"></script>
+    <script src="./src/script/sortAll.js"></script>
+  </body>
+</html>

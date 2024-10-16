@@ -1,0 +1,16 @@
+{
+  "name": "b9a3-hockeys",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./output/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "\"# simple-bus-ticket-selling\"",
+  "devDependencies": {
+    "daisyui": "^4.12.12",
+    "tailwindcss": "^3.4.13"
+  }
+}
